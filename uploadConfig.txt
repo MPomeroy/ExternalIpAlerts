@@ -1,0 +1,4 @@
+ftpUrl:
+ftpUser
+ftpPass:
+storagePath:
