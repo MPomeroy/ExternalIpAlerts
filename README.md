@@ -5,4 +5,6 @@ The mailExternalIp script sends an email (to an address specified in the configu
 
 The uploadExternalIp script uploads a text file to an ftp server (URL, credentials and storage path must also be specified in the appropriate configuration file).
 
-The scripts use independent configuration files, empty configuration files for both scripts are included in the repository.
+The scripts use independent configuration files, empty configuration files for both scripts are included in the repository. They were developed and tested using PHP 5.6, but they will likely work with many other PHP versions.
+
+Once configured the scripts can be run from the command line (e.g. "php mailExternalIp.php").

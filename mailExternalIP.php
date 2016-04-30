@@ -1,5 +1,10 @@
 <?php
-//Obviously requires php5 and curl be installed
+/**
+ * Light weight daemon to mail updates to the external IP address of the 
+ * daemon's host computer. Requires curl to be installed and included in 
+ * the PATH variable, and a mail server be installed and configured to work with
+ * PHP.
+ */
 
 //load the config
 $configFileName = 'mailConfig.txt';

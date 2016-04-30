@@ -1,7 +1,8 @@
 <?php
 /**
- * Light weight daemon to keep a file up to date with the current external ip
- * of the running computer. Requires curl to be installed and in PATH variable.
+ * Light weight daemon to keep a remote file up to date with the current 
+ * external ip of the running computer over ftp. Requires curl to be installed 
+ * and included in the PATH variable.
  */
 
 //load the config
